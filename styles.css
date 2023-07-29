@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(Estrellas.jpg);
+    background-image: url(Castillo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ header img{
     padding: 10px;
     text-align: justify;
     font-size: 20px;
-    color: whitesmoke;
+    color: white;
 }
 .caracter{
     color: rgb(35, 205, 235);
@@ -37,14 +37,25 @@ header img{
 .titulo{
     margin: 10px;
     text-align: center;
-    color: rgb(35, 235, 62);
+    color: rgb(2, 255, 242);
     font-size: 21px;
 }
 .parrafo{
+    color: white;
+    border-radius: 30px;
+    line-height: 30px;
     margin: 20px;
     text-align: justify;
     font-size: 20px;
-    color: whitesmoke;
+    background-image: url(FloresMoradas.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Valeria{
+    margin: 20px;
+    padding: 20px;
 }
 .imagen{
     text-align: center;
@@ -95,4 +106,14 @@ header img{
     height: 180px;
     border-radius: 50%;
     border: 5px solid whitesmoke;
+}
+
+/*-- Footerr --*/
+.Macabra{
+    background: url(CaraMacabra.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
