@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Estrellas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: pink;
+}
+header img{
+    width: 95%;
+    margin: 10px;
+    border-radius: 20px;
+}
+.lista{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.caracter{
+    color: rgb(35, 205, 235);
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.titulo{
+    margin: 10px;
+    text-align: center;
+    color: rgb(35, 235, 62);
+    font-size: 21px;
+}
+.parrafo{
+    margin: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.imagen{
+    text-align: center;
+}
+.imagen img{
+    margin: 20px;
+    border-radius: 50%;
+    border: 4px solid rgb(193, 41, 224);
+}
+.retratos{
+    text-align: center;
+}
+.retratos img{
+    margin: 10px;
+    width: 300px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+
+#texto{
+    background: rgb(51, 51, 51);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0 0 0;
+}
+#texto h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+#texto p{
+    text-align: justify;
+    font-size: 20px;
+}
+#texto .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+}
+.text{
+    margin: 20px;
+}
+.text img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+}
